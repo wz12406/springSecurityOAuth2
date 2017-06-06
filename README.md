@@ -4,7 +4,7 @@
 运行后
 尝试不使用任何验证信息来直拉访问资源：http://localhost:8080/SpringSecurityOAuth2/user/，将得到401。
 现在我们获取头。选择HTTP方法为 POST，
-Authorization Type：Basic Auth ，
+Authorization Type：Basic Auth ，（用户名和密码为鉴权服务器配置的客户端ID和serct）
 URL：http://localhost:8080/SpringSecurityOAuth2/oauth/token?grant_type=password&username=bill&password=abc123 ，
 然后再将客户端凭据 [my-trusted-client/secret]添加到授权头。
 点击"update request"(更新请求)，发送POST请求后，您会在响应中收到访问令牌(access-token)，以及刷新令牌(refresh-token)。
