@@ -22,3 +22,6 @@ URL：http://localhost:8080/SpringSecurityOAuth2/oauth/token?grant_type=password
 新令牌(Refresh-token)也会过期[10分钟]。在这之后，您会看到刷新请求失败。
 
 这意味着您需要刷新申请新的访问令牌，如第2步中。
+
+
+原教程地址请参考：http://www.yiibai.com/spring-security/secure-spring-rest-api-using-oauth2.html
